@@ -310,3 +310,32 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+@media (min-width: 570px) { 
+  #mapa {
+    margin-right: 27.5px;
+    width: 542.5px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) { 
+   #mapa {
+    width: 768;
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+   #mapa {
+    width: 992px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+   #mapa {
+    width: 1200px;
+    height: 700px;
+  }
+}
